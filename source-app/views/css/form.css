@@ -1,5 +1,5 @@
 body{
-	background-image: url("css/business_search.jpg");
+	background-image: url("css/j.jpg");
 	background-size: cover;
 }
 
@@ -9,6 +9,9 @@ body{
     margin:40px auto;
     background: #FFF;
     border-radius: 10px;
+    filter:alpha(Opacity=80);
+	-moz-opacity:0.7;
+	opacity: 0.7;
     -webkit-border-radius:10px;
     -moz-border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
