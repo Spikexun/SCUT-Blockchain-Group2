@@ -27,7 +27,7 @@
 			<th>快递费用</th><!-- 食品生产价格 -->
 			<th>投件人所在地</th><!-- 食品生产所在地 -->
 		</tr>
-		<tr>
+		<tr ng-repeat="query in query_source">
 			<td>{{query_source.FoodName}}</td>
 			<td>{{query_source.FoodSpec}}</td>
 			<td>{{query_source.FoodMFGDate}}</td>
